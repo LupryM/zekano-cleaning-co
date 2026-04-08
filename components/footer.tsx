@@ -22,7 +22,7 @@ export function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8 lg:py-16">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-16 lg:grid-cols-4">
           {/* Company Info */}
           <div className="space-y-4">
             <div>
@@ -95,7 +95,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <MailIcon className="h-5 w-5 shrink-0" />
-                <a href="mailto:info@zekanocleaningco.com" className="text-base lg:text-sm opacity-80 hover:opacity-100 transition-opacity">info@zekanocleaningco.com</a>
+                <a href="mailto:info@zenakocleaning.co.za" className="text-base lg:text-sm opacity-80 hover:opacity-100 transition-opacity">info@zenakocleaning.co.za</a>
               </li>
               <li className="flex items-start gap-3">
                 <ClockIcon className="h-5 w-5 shrink-0 mt-0.5" />
